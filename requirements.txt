@@ -1,7 +1,7 @@
 streamlit==1.25.0  # Adjust based on the latest Streamlit version or your specific version
 pandas==2.1.2      # For handling CSVs
 numpy==1.26.4
-pillow==11.0.0
+pillow>=7.1.0,<10.0.0
 plotly==5.24.1     # If you're using Plotly for visualizations
 matplotlib==3.9.3  # If you're using Matplotlib for plots
 scikit-learn==1.3.0  # For machine learning models if needed
